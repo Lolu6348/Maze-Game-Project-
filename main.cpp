@@ -20,7 +20,7 @@ private:
 
 public:
     void draw(int playerX, int playerY) {
-        system("clear");  // use "cls" on Windows
+        system("clear");  
         for (int i = 0; i < height; ++i) {
             for (int j = 0; j < width; ++j) {
                 if (i == playerY && j == playerX)
